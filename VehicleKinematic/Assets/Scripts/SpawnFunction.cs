@@ -15,7 +15,7 @@ public class SpawnFunction : MonoBehaviour
             MRUKRoom = MRUK.Instance.GetCurrentRoom();
             Vector3 gameAnchorPosition =
                 MRUKRoom.FloorAnchor.GetAnchorCenter() + Vector3.up * SpawnHeight;
-            GameObjectPrefab.transform.position = gameAnchorPosition;
+            GameObjectPrefab.transform.localPosition = gameAnchorPosition;
             GameObjectPrefab.gameObject.SetActive(true);
         }
     }

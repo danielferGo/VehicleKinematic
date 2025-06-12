@@ -17,7 +17,7 @@ public class SliderElement : MonoBehaviour
 
     private void EditProperty(float arg0)
     {
-        property.defaultValue = arg0;
+        property.defaultValue = Mathf.Round(arg0 * 100f) / 100f;
         text.text = $"{property.label}: {property.defaultValue:F2}";
     }
 
