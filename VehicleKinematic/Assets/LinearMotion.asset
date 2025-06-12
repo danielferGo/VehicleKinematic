@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f6e81688ec84b94884982233f4bf542, type: 3}
+  m_Name: LinearMotion
+  m_EditorClassIdentifier: 
+  exerciseTitle: LinearMotion
+  exerciseLogicPrefab: {fileID: 6506674664337809371, guid: 57d6fc180ad0a784f943a0139d133089, type: 3}
+  objectPrefabs: []
+  description: Move a car from one point to another
+  formulas:
+  - {fileID: 11400000, guid: 764472fc6f94bed44afdb3219becfbb4, type: 2}
+  exerciseController: {fileID: 0}
